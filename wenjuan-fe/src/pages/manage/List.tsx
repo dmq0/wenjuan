@@ -11,7 +11,7 @@ import styles from './common.module.scss'
 const { Title } = Typography
 
 const List: FC = () => {
-  useTitle('小慕问卷 - 我的问卷')
+  useTitle('问卷编辑器 - 我的问卷')
 
   const [started, setStarted] = useState(false) // 是否已经开始加载（防抖，有延迟时间）
   const [page, setPage] = useState(1) // List 内部的数据，不在 url 参数中体现
